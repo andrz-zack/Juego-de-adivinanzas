@@ -28,4 +28,27 @@ a {
     max-width: 500px;
     position: relative;
     margin: auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0.3em;
+    color: rgb(8, 75, 92);
+    text-decoration: none;
+}
+
+.num-of-tries-left {
+    text-align: right;
+    margin-bottom: 2em;
+}
+.num-of-tries-left span{
+    font-weight: 600;
+}
+.container {
+    font-size: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    
 }
