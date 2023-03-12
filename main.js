@@ -112,10 +112,21 @@ const generateWord = () => {
                 //perder
                 lossCount -= 1;
                 button.classList.add('used');
-                document.querySelector('.num-of-tries-left').innerHTML = `<span>Tries Left:</span> 0${lossCount}`;
+                document.querySelector('.num-of-tries-left').innerHTML = `<span>Intentos:</span> 0${lossCount}`;
+                if (lossCount == 0) {
+                    resultText.innerHTML = 'Haz perdido 🤨🤷‍♀️';
+                    blocker();
+                  }
+                }
+                //disable clicked button
+                button.disabled = true;
+              });
+              letterContainer.appendChild(button);
             }
-            
-        })
-    }
+          };
+          window.onload = () => {
+            init();
+          };
+     
 
- }
+ 
