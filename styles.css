@@ -123,6 +123,10 @@ a {
     -webkit-transform: translateY(7px);
         -ms-transform: translateY(7px);
             transform: translateY(7px);
+
+  }
+  #start:hover {
+    background-color: greenyellow;
   }
   .hide {
     display: none;
