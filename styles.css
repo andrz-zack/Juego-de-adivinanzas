@@ -52,3 +52,24 @@ a {
     justify-content: space-around;
     
 }
+#letter-container {
+    margin: 2em 0 3em 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    gap: 10px;        
+}
+.letters {
+    width: 3em;
+    height: 3em;
+    background-color: #fff;
+    border: 2px solid #092e66;
+    color: #03348f;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
